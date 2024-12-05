@@ -55,5 +55,5 @@ for i in range( 1, GRID_HEIGHT - 1 ):
            count +=1
 
 print ( "### PART 2 ###" )
-print ( count ) 
+print ( count            ) 
 
