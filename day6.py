@@ -64,6 +64,9 @@ print ( len( original_visited ) )
 
 causes_loops = 0
 for place in original_visited:
+    if place == start_position:
+        continue
+    
     copied_maze = maze.copy()
 
     copied_maze[place] = "#"
